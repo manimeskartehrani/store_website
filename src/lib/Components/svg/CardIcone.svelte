@@ -1,0 +1,21 @@
+<script lang="ts">
+	let klass: string = '';
+
+	export { klass as class };
+</script>
+
+<svg
+	class={klass}
+	aria-hidden="true"
+	focusable="false"
+	viewBox="0 0 22 22"
+	role="img"
+	width="25px"
+	height="25px"
+	fill="none"
+	><path
+		stroke="currentColor"
+		stroke-width="1.5"
+		d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"
+	></path></svg
+>

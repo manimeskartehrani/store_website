@@ -1,5 +1,5 @@
 {
-	"name": "movie-store",
+	"name": "ecommerce_store",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -12,6 +12,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@iconify/tailwind": "^0.1.4",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
@@ -34,5 +35,8 @@
 		"typescript-svelte-plugin": "^0.3.37",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"iconify-icon": "^2.0.0"
+	}
 }
